@@ -1,0 +1,117 @@
+.postStyle {
+   background-color: green;
+}
+
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2px;
+
+}
+
+.post {
+   background: rgba(0, 0, 0, .479);
+   height: 400px;
+   max-width: 530px;
+   width: 100%;
+   border: 2px solid rgb(12, 88, 88);
+   border-radius: 5px;
+   margin-top: 3px;
+   display: flex;
+   flex-direction: column;
+}
+
+.head {
+   height: 75px;
+}
+
+.headText {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   color: wheat;
+}
+
+.dot {
+   width: 10px;
+   height: 10px;
+}
+
+.ico {
+   width: 20px;
+   height: 20px;
+}
+
+.date,
+.nickname {
+   color: black;
+   font-size: 14px;
+   margin: 5px;
+}
+
+.text,
+.nameAuthor {
+   color: wheat;
+   text-shadow: 0 0 15px black;
+   font-weight: bold;
+   margin: 5px;
+}
+
+.text {
+   font-size: 14px;
+}
+
+.photo {
+   float: left;
+   width: 50px;
+   height: 55px;
+   border-radius: 20%;
+   margin: 5px;
+}
+
+.main {
+   float: right;
+   margin: 10px;
+}
+
+.contentImage {
+   border-radius: 15px;
+   height: 250px;
+   max-width: 450px;
+   width: 100%;
+}
+
+.footer {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+}
+
+.like,
+.comments,
+.retwit,
+.share {
+   width: 20px;
+   height: 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.like:hover {
+   background-color: rgb(233, 82, 55);
+}
+
+.comments:hover {
+   background-color: rgb(23, 133, 206);
+}
+
+.retwit:hover {
+   background-color: rgb(29, 190, 110);
+}
+
+.share:hover {
+   background-color: rgb(110, 59, 230);
+}

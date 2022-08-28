@@ -1,0 +1,34 @@
+.containerPosts {
+   display: grid;
+   justify-content: center;
+}
+
+.addPost {
+   background-color: grey;
+   background: rgba(0, 0, 0, .479);
+   max-width: 530px;
+   width: 100%;
+   height: 200px;
+   border: 2px solid rgb(12, 88, 88);
+   border-radius: 5px;
+}
+
+.formPost {
+   display: grid;
+   justify-content: center;
+}
+
+.textAreaPosts {
+   width: 500px;
+   height: 100px;
+}
+
+.buttonAndSelect {
+   display: grid;
+   justify-content: center;
+}
+
+.selectUser,
+.buttonAddPost {
+   width: 120px;
+}

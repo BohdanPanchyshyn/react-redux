@@ -1,0 +1,7 @@
+
+export const actionTypes = {
+   ADD_POST: "ADD_POST",
+   CHANGE_LIKE: "CHANGE_LIKE",
+   CHANGE_COMMENTS: "CHANGE_COMMENTS",
+   CHANGE_SHARE: "CHANGE_SHARE",
+}
